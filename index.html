@@ -3,7 +3,28 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TOTO TRANS TOL - Agen Bus Multi Jurusan</title>
+
+  <!-- ============================================================
+       SEO: TITLE & META DESCRIPTION
+       Domain aktif: tototrans.netlify.app
+       (nanti kalau pindah ke domain custom, tinggal ganti semua
+       kemunculan "tototrans.netlify.app" di file ini)
+  ============================================================ -->
+  <title>Tiket Bus Tegal - Jakarta, Surabaya, Bali | TOTO TRANS TOL</title>
+  <meta name="description" content="TOTO TRANS TOL - agen resmi tiket bus dari Tegal ke Semarang, Solo, Surabaya, Malang, Bali, Jakarta, Bandung & Sumatera. Jadwal harian, kursi nyaman, pesan via WhatsApp." />
+  <meta name="keywords" content="tiket bus tegal, bus tegal jakarta, bus tegal surabaya, bus tegal bandung, agen bus tegal, jadwal bus tegal" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://tototrans.netlify.app/" />
+
+  <!-- ============================================================
+       OPEN GRAPH (preview pas di-share ke WhatsApp/Facebook)
+  ============================================================ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="TOTO TRANS TOL - Tiket Bus Tegal Multi Jurusan" />
+  <meta property="og:description" content="Agen resmi bus dari Tegal ke Semarang, Solo, Surabaya, Malang, Bali, Jakarta, Bandung & Sumatera. Jadwal harian, pesan via WhatsApp." />
+  <meta property="og:url" content="https://tototrans.netlify.app/" />
+  <meta property="og:image" content="https://tototrans.netlify.app/bus%20depan.jpeg" />
+  <meta property="og:locale" content="id_ID" />
 
   <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,6 +38,32 @@
 
   <!-- CUSTOM CSS -->
   <link rel="stylesheet" href="assets/css/main.css" />
+
+  <!-- ============================================================
+       STRUCTURED DATA (Schema.org) — bantu Google ngerti bisnis
+       lu itu apa & bisa muncul di Google Maps / local pack
+  ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BusStation",
+    "name": "TOTO TRANS TOL",
+    "image": "https://tototrans.netlify.app/bus%20depan.jpeg",
+    "url": "https://tototrans.netlify.app/",
+    "telephone": "+6287744490073",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jln. Raya Karanganyar / Banjaranyar Tegal No. 86",
+      "addressLocality": "Tegal",
+      "addressRegion": "Jawa Tengah",
+      "addressCountry": "ID"
+    },
+    "areaServed": [
+      "Semarang", "Solo", "Surabaya", "Malang", "Bali", "Jakarta",
+      "Bandung", "Kudus", "Ponorogo", "Banyuwangi"
+    ]
+  }
+  </script>
 </head>
 
 <body class="bg-background text-on-background font-body-md text-body-md antialiased
@@ -98,7 +145,7 @@
       <div class="absolute inset-0 z-0">
         <img
           src="bus depan.jpeg"
-          alt="Armada bus modern TOTO TRANS TOL"
+          alt="Armada bus TOTO TRANS TOL jurusan Tegal Jakarta Surabaya Bali"
           class="w-full h-full object-cover opacity-30"
         />
         <div class="absolute inset-0 bg-gradient-to-r from-surface-bright/95 via-surface-bright/80 to-transparent"></div>
@@ -118,14 +165,14 @@
           </div>
 
           <h1 class="font-headline-xl text-headline-xl text-on-surface">
-            TOTO TRANS TOL
-            <span class="block text-secondary mt-xs">Agen Bus Multi Jurusan</span>
+            Tiket Bus Tegal
+            <span class="block text-secondary mt-xs">TOTO TRANS TOL - Agen Bus Multi Jurusan</span>
           </h1>
 
           <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
-            Keandalan, Kecepatan, dan Kejelasan. Kami menghubungkan kota-kota dengan
-            kenyamanan dan ketepatan waktu. Perjalanan premium Anda dimulai dari Tegal
-            ke tujuan utama di seluruh Jawa Timur dan Jawa Barat.
+            Keandalan, Kecepatan, dan Kejelasan. Kami menghubungkan Tegal dengan
+            kota-kota utama di Jawa Timur dan Jawa Barat, termasuk Semarang, Solo,
+            Surabaya, Malang, Bali, Jakarta, Bandung, dan Sumatera.
           </p>
 
           <div class="flex flex-col sm:flex-row gap-sm pt-sm">
@@ -155,7 +202,7 @@
             <div class="absolute inset-0 bg-secondary/5 rounded-full blur-3xl"></div>
             <img
               src="bus belakang.jpg"
-              alt="Armada bus TOTO TRANS TOL"
+              alt="Armada bus TOTO TRANS TOL tampak belakang"
               class="relative z-10 w-full h-full object-cover rounded-2xl shadow-2xl
                      border border-surface-container-highest"
             />
@@ -197,7 +244,7 @@
       <div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter">
 
         <div class="text-center mb-lg space-y-sm">
-          <h2 class="font-headline-lg text-headline-lg text-on-surface">Jadwal Keberangkatan</h2>
+          <h2 class="font-headline-lg text-headline-lg text-on-surface">Jadwal Keberangkatan Bus dari Tegal</h2>
           <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
             Jadwal harian dari Tegal. Hubungi agen untuk konfirmasi ketersediaan kursi.
           </p>
@@ -332,7 +379,7 @@
       <div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter">
 
         <div class="text-center mb-lg space-y-sm">
-          <h2 class="font-headline-lg text-headline-lg text-on-surface">Jaringan Rute Lengkap</h2>
+          <h2 class="font-headline-lg text-headline-lg text-on-surface">Jaringan Rute Bus Tegal Lengkap</h2>
           <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
             Menghubungkan Tegal ke pusat-pusat utama dengan jadwal harian yang dapat diandalkan.
           </p>
@@ -447,7 +494,7 @@
                       rounded-xl overflow-hidden relative group">
             <img
               src="bus interior 1.jpeg"
-              alt="Interior bus kelas eksekutif TOTO TRANS TOL"
+              alt="Interior bus kelas eksekutif TOTO TRANS TOL jurusan Tegal"
               class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent
